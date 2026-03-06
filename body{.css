@@ -1,0 +1,67 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#ff758c,#ff7eb3);
+text-align:center;
+color:white;
+overflow:hidden;
+}
+
+.container{
+padding:20px;
+position:relative;
+z-index:2;
+}
+
+h1{
+font-size:30px;
+margin-top:10px;
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{ text-shadow:0 0 10px white;}
+to{ text-shadow:0 0 30px yellow;}
+}
+
+.photo{
+width:90%;
+max-width:350px;
+border-radius:20px;
+margin-top:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+}
+
+.text{
+font-size:18px;
+margin-top:10px;
+}
+
+.cake{
+font-size:90px;
+margin-top:20px;
+cursor:pointer;
+}
+
+button{
+padding:12px 25px;
+border:none;
+border-radius:25px;
+background:white;
+color:#ff4d6d;
+font-size:18px;
+margin-top:10px;
+}
+
+.message{
+display:none;
+font-size:22px;
+margin-top:15px;
+}
+
+canvas{
+position:fixed;
+top:0;
+left:0;
+z-index:1;
+}
