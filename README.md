@@ -1,2 +1,0 @@
-# marriage
-my parent
